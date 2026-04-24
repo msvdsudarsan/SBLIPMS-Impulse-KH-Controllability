@@ -1,4 +1,4 @@
-# SBLIPMS-Controllability
+# SBLIPMS-Impulse-KH-Controllability/
 
 ## Kalman–Hewer Controllability Equivalence for Singular Bilinear Lyapunov Periodic Systems with Impulses
 
