@@ -115,7 +115,8 @@ run('Figure1_SatelliteSV.m')
 ```
 This produces `Figure1_SatelliteSV.pdf` — the 16-dimensional satellite stress test.
 
-**Step 3: Verify console output**.
+Step 3: Verify console output.
+
 Compare the console output with `MATLAB_OUTPUTS_IMPULSE_KH.txt` to confirm reproducibility.
 ---
 
