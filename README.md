@@ -10,7 +10,7 @@
 
 **Target Journal:** Nonlinear Dynamics (Springer) · IF 6.0 · Q1 · SCI/SCIE · Hybrid (no mandatory APC)
 
-**Status:** Status: Submitted to Nonlinear Dynamics (April 2026)
+**Status:** Submitted to Nonlinear Dynamics (April 2026)
 
 ---
 
@@ -33,7 +33,7 @@ A 16-dimensional satellite attitude covariance stress test and a pharmacokinetic
 ## Repository Structure
 
 ```
-SBLIPMS-Controllability/
+SBLIPMS-Impulse-KH-Controllability/
 │
 ├── README.md                          ← This file
 │
@@ -115,9 +115,8 @@ run('Figure1_SatelliteSV.m')
 ```
 This produces `Figure1_SatelliteSV.pdf` — the 16-dimensional satellite stress test.
 
-**Step 3: Verify console output**
+**Step 3: Verify console output**.
 Compare the console output with `MATLAB_OUTPUTS_IMPULSE_KH.txt` to confirm reproducibility.
-
 ---
 
 ## System Definition
