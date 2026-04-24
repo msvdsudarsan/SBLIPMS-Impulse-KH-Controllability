@@ -1,0 +1,24 @@
+==================================================
+  FINAL SBLIPMS (NO ERRORS + FIGURES)
+==================================================
+
+TABLE:
+A=0.2102 B=0.7238 C=0.0021 D=0.5032
+
+DONE
+>> 
+
+==============================================
+  Figure 1: Satellite SV Trajectory
+  Madhyannapu & Pradheep Kumar S., 2026
+==============================================
+
+Simulating X(t) over [0, T]  (N = 3000 steps)...
+  Simulation complete.
+
+Generating Figure 1...
+  Figure1_SatelliteSV.pdf  saved  (500 DPI)
+  Copy this PDF to your LaTeX folder and compile
+
+DONE
+>> 

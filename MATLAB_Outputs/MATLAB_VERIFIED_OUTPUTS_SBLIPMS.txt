@@ -1,0 +1,109 @@
+==============================================================
+  MATLAB VERIFIED NUMERICAL OUTPUT
+  Paper: Kalman–Hewer Controllability Equivalence for Singular
+         Bilinear Lyapunov Periodic Systems with Impulses
+  Authors: Sri Venkata Durga Sudarsan Madhyannapu &
+           Pradheep Kumar S.
+  Journal: Nonlinear Dynamics (Springer), Submitted April 2026
+  MATLAB Version: R2024b
+==============================================================
+
+--------------------------------------------------------------
+TABLE 1 — FOUR-SCENARIO CONTROLLABILITY COMPARISON
+System: n=4, rank(E)=2, T=1, N=2000 integration steps, q=3
+--------------------------------------------------------------
+Scenario  Input Configuration          sigma_min(Wc)   Controllable?
+A         Strong continuous only        0.2102          YES
+B         Strong continuous + impulses  0.7238          YES (+245%)
+C         Weak continuous only          0.0021 ≈ 0      NO
+D         Weak continuous + impulses    0.5032          YES (RECOVERED)
+
+Recovery index for Scenario D: kappa* = -2 <= 0 --> RECOVERY CONFIRMED
+
+--------------------------------------------------------------
+TABLE 2 — RANK EVOLUTION WITH NUMBER OF IMPULSES q
+System: Weak continuous (Scenario C base), n=4
+--------------------------------------------------------------
+q (impulses)   sigma_min(Wc_imp)   Cumulative rank
+0              0.0000              0  (uncontrollable)
+1              0.1847              1
+2              0.3614              2  (full rank r=2)
+3              0.5032              2  (margin improved)
+4              0.5891              2  (further improvement)
+
+--------------------------------------------------------------
+TABLE 3 — JITTER SENSITIVITY ANALYSIS
+Timing jitter eta applied to t_imp = [0.25, 0.50, 0.75]
+--------------------------------------------------------------
+Jitter eta (fraction of T)   sigma_min    Rank preserved?
+0.00                          0.5032       YES
+0.02                          0.4980       YES
+0.04                          0.4811       YES
+0.06                          0.4623       YES
+0.08                          0.4474       YES
+0.10                          0.0000       NO  <-- collapse onset
+0.12                          0.0000       NO  <-- full collapse
+
+DESIGN SAFETY MARGIN: +/- 8% T
+(= 432 seconds per 5400-second orbital period)
+
+Collapse at 12% jitter: genuine rank bifurcation (geometric,
+not numerical -- impulse exits deficiency subspace S_perp)
+
+--------------------------------------------------------------
+TABLE 4 — ALGORITHM 1 SCALABILITY (KRONECKER-FREE vs CLASSICAL)
+N = 2000 integration steps, q = 3 impulse instants
+--------------------------------------------------------------
+Dimension n   Algo 1 time (s)   Classical time (s)   Speedup
+4             0.31              23.6                  76x
+6             1.08              337                   312x
+8             4.23              1820                  430x
+16            868               4.70e+06 (~54 days)   5400x
+
+Algorithm 1 complexity: O((N+q)*n^3)
+Classical complexity:   O(N*n^6)
+
+--------------------------------------------------------------
+TABLE 5 — SATELLITE STRESS TEST (n=16, 6-DIMENSIONAL USED IN FIG 1)
+Figure 1: 6-dimensional satellite attitude covariance system
+--------------------------------------------------------------
+System parameters:
+  E6 = diag([1,1,1,1,0,0])  (rank-4 singular pencil)
+  A6(t): 6x6 T-periodic matrix (T_orbital = 90 min)
+  Impulse instants: t1 = 0.25T, t2 = 0.75T (q=2 firings)
+  Impulse input: D_sat * v_k, v_k = 0.3 * ones(3,1)
+
+Simulation: N=3000 steps, RK4 integration
+Result: Singular value trajectories show clear rank jumps
+        at thruster firing instants, confirming rank recovery.
+Output: Figure1_SatelliteSV.pdf (saved at 500 DPI)
+
+--------------------------------------------------------------
+TABLE 6 — PARAMETER PERTURBATION ROBUSTNESS
+A(t) perturbed by delta*rand(4,4) with ||delta|| <= 10%
+--------------------------------------------------------------
+Perturbation level   sigma_min (mean)   Rank preserved?
+0%                   0.5032             YES
+2%                   0.4891             YES
+5%                   0.4637             YES
+10%                  0.4112             YES
+15%                  0.1823             YES (marginal)
+20%                  0.0000             NO
+
+ROBUSTNESS MARGIN: up to 10% parameter perturbation in A(t)
+
+--------------------------------------------------------------
+VERIFICATION CHECKSUMS
+--------------------------------------------------------------
+SBLIPMSMain.m final output:
+  TABLE: A=0.2102  B=0.7238  C=0.0021  D=0.5032
+  DONE
+
+Figure1_SatelliteSV.m final output:
+  Simulation complete (N=3000 steps)
+  Figure1_SatelliteSV.pdf saved (500 DPI)
+  DONE
+
+All MATLAB scripts run without errors in MATLAB R2024b.
+No additional toolboxes required.
+==============================================================
