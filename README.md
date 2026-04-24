@@ -10,7 +10,7 @@
 
 **Target Journal:** Nonlinear Dynamics (Springer) · IF 6.0 · Q1 · SCI/SCIE · Hybrid (no mandatory APC)
 
-**Status:** Submitted, April 2026
+**Status:** Status: Submitted to Nonlinear Dynamics (April 2026)
 
 ---
 
