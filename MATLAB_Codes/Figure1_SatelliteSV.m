@@ -1,6 +1,6 @@
 %% Figure1_SatelliteSV.m
 clc; clear; close all;
-format short g;
+format short g; 
 
 fprintf('==============================================\n');
 fprintf('  Figure 1: Satellite SV Trajectory\n');
