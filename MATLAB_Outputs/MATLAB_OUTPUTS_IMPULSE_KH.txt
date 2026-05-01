@@ -10,7 +10,7 @@ DONE
 
 ==============================================
   Figure 1: Satellite SV Trajectory
-  Madhyannapu & Pradheep Kumar S., 2026
+  Madhyannapu & Pradheep Kumar S., 2026 
 ==============================================
 
 Simulating X(t) over [0, T]  (N = 3000 steps)...
