@@ -1,5 +1,5 @@
 clc; clear; close all;
-format long e;
+format long e;  
 
 fprintf('==================================================\n');
 fprintf('  FINAL SBLIPMS (NO ERRORS + FIGURES)\n');
