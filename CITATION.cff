@@ -20,8 +20,8 @@ title: >-
   Equivalence for Singular Bilinear Lyapunov Periodic Systems with Impulses
 version: 1.0.0
 date-released: "2026-04-24"
-url: "https://github.com/msvdsudarsan/SBLIPMS-Controllability"
-repository-code: "https://github.com/msvdsudarsan/SBLIPMS-Controllability"
+url: "https://github.com/msvdsudarsan/SBLIPMS-Impulse-KH-Controllability"
+repository-code: "https://github.com/msvdsudarsan/SBLIPMS-Impulse-KH-Controllability"
 license: MIT
 keywords:
   - singular bilinear systems
@@ -44,7 +44,8 @@ preferred-citation:
   title: >-
     Kalman–Hewer Controllability Equivalence for Singular Bilinear
     Lyapunov Periodic Systems with Impulses
-  journal: Nonlinear Dynamics
-  publisher: Springer
+  journal: Nonlinear Analysis: Hybrid Systems
+  issn: "1751-570X"
+  publisher: Elsevier
   year: 2026
   notes: Submitted April 2026
