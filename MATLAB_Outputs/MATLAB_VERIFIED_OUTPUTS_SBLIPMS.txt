@@ -1,7 +1,7 @@
 ==============================================================
   MATLAB VERIFIED NUMERICAL OUTPUT
   Paper: Kalman–Hewer Controllability Equivalence for Singular
-         Bilinear Lyapunov Periodic Systems with Impulses
+         Bilinear Lyapunov Periodic Systems with Impulses  
   Authors: Sri Venkata Durga Sudarsan Madhyannapu &
            Pradheep Kumar S.
   Journal: Nonlinear Analysis: Hybrid Systems (Elsevier, ISSN 1751-570X), Submitted April 2026
