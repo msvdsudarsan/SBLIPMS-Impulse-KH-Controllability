@@ -1,4 +1,4 @@
-# SBLIPMS-Impulse-KH-Controllability/
+## SBLIPMS-Impulse-KH-Controllability/
 
 ## Kalman–Hewer Controllability Equivalence for Singular Bilinear Lyapunov Periodic Systems with Impulses
 
@@ -8,9 +8,9 @@
 
 ² School of Basic Sciences, SRM University AP, Neerukonda, Mangalagiri, Guntur 522240, Andhra Pradesh, India. Email: sravanampradheepkumar@gmail.com
 
-**Target Journal:** Nonlinear Dynamics (Springer) · IF 6.0 · Q1 · SCI/SCIE · Hybrid (no mandatory APC)
+**Target Journal:** Nonlinear Analysis: Hybrid Systems (Elsevier, ISSN 1751-570X) · IF 4.8 · Q1 · SCI/SCIE
 
-**Status:** Submitted to Nonlinear Dynamics (April 2026)
+**Status:** Submitted to Nonlinear Analysis: Hybrid Systems (April 2026)
 
 ---
 
@@ -196,7 +196,7 @@ This repository is part of a research series on Kalman–Hewer equivalence for s
 
 | Paper | System Class | Journal | Repository |
 |---|---|---|---|
-| **This paper** | SBLIPMS (Lyapunov bilinear + impulses) | Nonlinear Dynamics | — |
+| **This paper** | SBLIPMS (Lyapunov bilinear + impulses) | Nonlinear Analysis: Hybrid Systems | — |
 | [Bilinear-Matrix-Periodic-Controllability](https://github.com/msvdsudarsan/Bilinear-Matrix-Periodic-Controllability) | Generalized bilinear periodic | MCSS | ✅ |
 | [SBMPMS-observability](https://github.com/msvdsudarsan/SBMPMS-observability) | Melnikov observability breakdown | Chaos, Solitons & Fractals | ✅ |
 
@@ -211,9 +211,9 @@ If you use this code or data in your research, please cite:
   author  = {Madhyannapu, Sri Venkata Durga Sudarsan and {Pradheep Kumar}, S.},
   title   = {{Kalman--Hewer} Controllability Equivalence for Singular
              Bilinear {Lyapunov} Periodic Systems with Impulses},
-  journal = {Nonlinear Dynamics},
+  journal = {Nonlinear Analysis: Hybrid Systems},
   year    = {2026},
-  publisher = {Springer},
+  publisher = {Elsevier},
   note    = {Submitted April 2026}
 }
 ```
