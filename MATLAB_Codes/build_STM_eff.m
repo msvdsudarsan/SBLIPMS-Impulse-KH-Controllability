@@ -11,7 +11,7 @@ function Phi = build_STM_eff(E, Afun, Bk_list, t_imp, s, T, h)
             Phi = rk4step(E,Afun,Phi,t,t_next-t);
             t = t_next;
         else
-            for k=idx(:)'
+            for k=idx(:)' 
                 if t_imp(k)>t
                     Phi = rk4step(E,Afun,Phi,t,t_imp(k)-t);
                 end
