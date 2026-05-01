@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper as below."
 authors:
   - family-names: Madhyannapu
-    given-names: Sri Venkata Durga Sudarsan
+    given-names: Sri Venkata Durga Sudarsan   
     orcid: "https://orcid.org/0009-0001-2126-6428"
     affiliation: >-
       Freshmen Engineering Department, Dr. RVR NRI Institute of Technology
