@@ -4,7 +4,7 @@
          Bilinear Lyapunov Periodic Systems with Impulses
   Authors: Sri Venkata Durga Sudarsan Madhyannapu &
            Pradheep Kumar S.
-  Journal: Nonlinear Dynamics (Springer), Submitted April 2026
+  Journal: Nonlinear Analysis: Hybrid Systems (Elsevier, ISSN 1751-570X), Submitted April 2026
   MATLAB Version: R2024b
 ==============================================================
 
