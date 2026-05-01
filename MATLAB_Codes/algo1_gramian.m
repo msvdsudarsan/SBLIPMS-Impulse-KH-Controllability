@@ -1,6 +1,6 @@
 function [Wc_cts, Wc_imp, Wc_total] = ...
     algo1_gramian(E,Afun,F,Bk,Ck,Dk,t_imp,T,N)
-
+ 
     n=size(E,1);
     h=T/N;
     s_grid=0:h:T;
