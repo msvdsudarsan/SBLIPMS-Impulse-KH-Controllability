@@ -1,6 +1,6 @@
 function Mk = compute_Mk(E, Afun, Bk_list, t_imp, k, T, h)
 
-    n=size(E,1);
+    n=size(E,1);  
     Phi=eye(n);
     t=t_imp(k);
 
