@@ -1,7 +1,7 @@
 ## SBLIPMS-Impulse-KH-Controllability/
 
 ## Kalman–Hewer Controllability Equivalence for Singular Bilinear Lyapunov Periodic Systems with Impulses
-DOI: https://doi.org/10.5281/zenodo.20196726 
+
 **Authors:** Sri Venkata Durga Sudarsan Madhyannapu¹ and Pradheep Kumar S.²
 
 ¹ Freshmen Engineering Department, Dr. RVR NRI Institute of Technology (Deemed to be University), Pothavarappadu, Agiripalli, Eluru District 521212, Andhra Pradesh, India. Email: msvdsudarsan@gmail.com · ORCID: 0009-0001-2126-6428
